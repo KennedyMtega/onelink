@@ -1,11 +1,3 @@
----
-Build and Ship Nuxt 3 fullstack starter apps with Auth, DB, Payments, Email & File storage 
-
-Try [Supersaas today](https://supersaas.dev)
----
-
-
-[<img src="https://essentials.supersaas.dev/supersaas-banner.png">](https://supersaas.dev?ref=github-onelink)
 
 # Onelink - Your Digital Business Card
 

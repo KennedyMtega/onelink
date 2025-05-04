@@ -7,61 +7,120 @@ Try [Supersaas today](https://supersaas.dev)
 
 [<img src="https://essentials.supersaas.dev/supersaas-banner.png">](https://supersaas.dev?ref=github-onelink)
 
-# Onelink
+# Onelink - Your Digital Business Card
 
-Onelink is an experimental link-in-bio tool, where the data lives in the URL. 
+![Onelink Preview](https://user-images.githubusercontent.com/15716057/215350057-5fbf81f5-5f33-4cbe-98ba-0ced8b3c09c8.jpg)
 
+## About Onelink
 
+Onelink is a revolutionary link-in-bio platform designed specifically for Tanzanian entrepreneurs, content creators, and digital professionals. Created by Kennedy Mtega, this platform allows you to create a beautiful, customizable digital business card that lives in a single URL.
 
-![Screenshot2023-01-30 at 00 40 04@2x](https://user-images.githubusercontent.com/15716057/215350057-5fbf81f5-5f33-4cbe-98ba-0ced8b3c09c8.jpg)
+### Key Features
 
-> **Note**
-> Since the URL can become very long, it's better to use a link shortener like https://dub.co
+- **Instant Setup**: Create your digital presence in minutes
+- **URL-Based Data**: All your information lives in the URL, making it easy to share and update
+- **Mobile-First Design**: Optimized for all devices
+- **Social Media Integration**: Connect all your social platforms in one place
+- **Custom Links**: Add unlimited custom links to your content, products, or services
+- **Analytics Ready**: Track your link performance (coming soon)
+- **Dark Mode Support**: Choose your preferred theme
 
-Here's a demo page
-https://onelink-nu.vercel.app/1?data=eyJuIjoiSm9obiBTbm93IiwiZCI6IknigJltIEpvaG4gU25vdywgdGhlIGtpbmcgaW4gdGhlIG5vcnRoLiBJIGtub3cgTm90aGluZy4iLCJpIjoiaHR0cHM6Ly9pLmluc2lkZXIuY29tLzU2NzQzZmFkNzJmMmMxMmEwMDhiNmNjMCIsImYiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vam9obl9zbm93IiwidCI6Imh0dHBzOi8vdHdpdHRlci5jb20vam9obl9zbm93IiwiaWciOiJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2pvaG5fc25vdyIsImUiOiJtYWlsQGpvaG5fc25vdy5jYyIsImdoIjoiaHR0cHM6Ly9naXRodWIuY29tL2pvaG5fc25vdyIsInRnIjoiaHR0cHM6Ly90Lm1lL2pvaG5fc25vdyIsInciOiIrOTE4ODg4ODg4ODg4IiwieSI6Imh0dHBzOi8veW91dHViZS5jb20vQGpvaG5fc25vdyIsImwiOiJodHRwczovL2xpbmtlZGluLmNvbS9qb2huX3Nub3ciLCJscyI6W3sibCI6Ik15IFdlYnNpdGUiLCJpIjoicGg6Z2xvYmUtZHVvdG9uZSIsInUiOiJodHRwczovL2V4YW1wbGUuY29tIn0seyJsIjoiQW1hem9uIHdpc2hsaXN0IiwiaSI6ImFudC1kZXNpZ246YW1hem9uLW91dGxpbmVkIiwidSI6Imh0dHBzOi8vYW1hem9uLmluIn0seyJsIjoiUmVhY3QgSlMgY291cnNlIiwiaSI6Imdyb21tZXQtaWNvbnM6cmVhY3RqcyIsInUiOiJodHRwczovL3JlYWN0anMub3JnLyJ9LHsibCI6IkRvbmF0ZSBmb3Igb3VyIGNhdXNlIiwiaSI6Imljb25vaXI6ZG9uYXRlIiwidSI6Imh0dHBzOi8vd2hvLmludCJ9LHsibCI6IkRvd25sb2FkIG15IHJlc3VtZSIsImkiOiJwaDpmaWxlLXBkZiIsInUiOiJodHRwczovL2dvb2dsZS5jb20ifV19
+## Why Onelink?
 
-The data is converted to a base 64 string which we onelink uses as a query parameter. I have tried to reduce the json keys to be as small as possible
+In Tanzania's growing digital economy, having a professional online presence is crucial. Onelink helps you:
 
-Roadmap.
-1. Templates - make different templates, the `/1` after the host is basically a template here.
-2. Refactor code - a lot of repeated boilerplate code is added here - refactor it properly.
+- Create a professional digital identity
+- Share your work and services effectively
+- Connect with potential clients and partners
+- Build your personal brand
+- Monetize your digital presence
 
-## Setup locally
+## Future Features
 
-Make sure to install the dependencies:
+### For Content Creators
+- **Content Calendar Integration**: Schedule and showcase your upcoming content
+- **Donation Links**: Accept support from your audience
+- **Merch Store Integration**: Sell your merchandise directly
+- **Event Calendar**: Showcase your upcoming events and workshops
+- **Content Preview**: Preview your latest content directly on your page
+
+### For Entrepreneurs
+- **Business Hours**: Display your operating hours
+- **Service Menu**: Showcase your services with pricing
+- **Appointment Booking**: Allow clients to book appointments directly
+- **Payment Integration**: Accept payments for services
+- **Customer Reviews**: Display testimonials and reviews
+
+### For Professionals
+- **Portfolio Showcase**: Display your work in a beautiful gallery
+- **Resume/CV Integration**: Share your professional background
+- **Skills Matrix**: Visual representation of your expertise
+- **Certification Badges**: Display your professional certifications
+- **Speaking Engagements**: Showcase your speaking events
+
+### Technical Features
+- **Multi-language Support**: Support for Swahili and other local languages
+- **Custom Domains**: Use your own domain name
+- **Advanced Analytics**: Track visitor behavior and engagement
+- **SEO Optimization**: Improve your search engine visibility
+- **API Access**: Integrate with other platforms
+- **Team Collaboration**: Work with team members on your page
+- **A/B Testing**: Test different layouts and content
+- **Scheduled Updates**: Plan content updates in advance
+
+### Tanzanian-Specific Features
+- **Tanzanian Payment Integration**: Support for local payment methods
+- **Local Business Directory**: Connect with other Tanzanian businesses
+- **Swahili Language Support**: Full support for Swahili content
+- **Local Event Integration**: Showcase Tanzanian events and meetups
+- **Tanzanian Social Media**: Special integration for local platforms
+
+## Getting Started
+
+### Prerequisites
+- Node.js 22 or later
+- npm or yarn
+
+### Installation
 
 ```bash
-# yarn
-yarn install
+# Clone the repository
+git clone https://github.com/kennedymtega/onelink.git
 
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
+# Start development server
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
+### Production Build
 
 ```bash
+# Build for production
 npm run build
-```
 
-Locally preview production build:
-
-```bash
+# Preview production build
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Contributing
+
+We welcome contributions from the Tanzanian tech community! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, please:
+- Join our [Discord Community](https://discord.gg/onelink)
+- Follow us on [Twitter](https://twitter.com/onelink)
+- Email us at support@onelink.tz
+
+## Acknowledgments
+
+- Special thanks to the Tanzanian tech community
+- Inspired by the growing digital economy in Tanzania
+- Built with ❤️ in Dar es Salaam
